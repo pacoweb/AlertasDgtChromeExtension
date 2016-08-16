@@ -1,0 +1,632 @@
+{
+	"extName" : {
+		"message" : "Alertas de tr\u00E1fico"
+	},
+	"extDescription" : {
+		"message" : "Recibe alertas georeferenciadas de tr\u00e1fico procedentes de la informaci\u00F3n DGT"
+	},
+	"extJustVersion" : {
+		"message" : "2.0.0"
+	},
+	"extVersion" : {
+		"message" : "Versi\u00F3n 2.0.0"
+	},
+	"so_claxon" : {
+		"message" : "Claxon"
+	},
+	"so_arranque" : {
+		"message" : "Arranque"
+	},
+	"so_speech" : {
+		"message" : "S\u00edntesis de voz"
+	},
+
+	"type_meteo" : {
+		"message" : "Meteorol\u00F3gica"
+	},
+	"type_obras" : {
+		"message" : "Obras"
+	},
+	"type_retencion" : {
+		"message" : "Retenci\u00F3n"
+	},
+	"type_cono" : {
+		"message" : "Cono"
+	},
+	"type_puertos" : {
+		"message" : "Puertos"
+	},
+
+	"lev_verde" : {
+		"message" : "Verde"
+	},
+	"lev_amarillo" : {
+		"message" : "Amarillo"
+	},
+	"lev_rojo" : {
+		"message" : "Rojo"
+	},
+	"lev_negro" : {
+		"message" : "Negro"
+	},
+
+
+	"lev_negro_max" : {
+		"message" : "Negro (Carreteras cortadas o Puertos cerrados)"
+	},
+	"lev_rojo_max" : {
+		"message" : "Rojo (Circulaci\u00F3n dif\u00EDcil)"
+	},
+	"lev_amarillo_max" : {
+		"message" : "Amarillo (Circulaci\u00F3n irregular)"
+	},
+	"lev_verde_max" : {
+		"message" : "Verde (Circulaci\u00F3n condicionada)"
+	},
+
+	"just_lev_negro_max" : {
+		"message" : "Carreteras cortadas o Puertos cerrados"
+	},
+	"just_lev_rojo_max" : {
+		"message" : "Circulaci\u00F3n dif\u00EDcil"
+	},
+	"just_lev_amarillo_max" : {
+		"message" : "Circulaci\u00F3n irregular"
+	},
+	"just_lev_verde_max" : {
+		"message" : "Circulaci\u00F3n condicionada"
+	},
+
+	"ca_15": {
+	    "message": "Andaluc\u00eda"
+	},
+	"prov_4": {
+	    "message": "Almer\u00eda"
+	},
+	"prov_11": {
+	    "message": "C\u00e1diz"
+	},
+	"prov_14": {
+	    "message": "C\u00f3rdoba"
+	},
+	"prov_18": {
+	    "message": "Granada"
+	},
+	"prov_21": {
+	    "message": "Huelva"
+	},
+	"prov_23": {
+	    "message": "Ja\u00e9n"
+	},
+	"prov_29": {
+	    "message": "M\u00e1laga"
+	},
+	"prov_41": {
+	    "message": "Sevilla"
+	},
+	"ca_6": {
+	    "message": "Arag\u00f3n"
+	},
+	"prov_22": {
+	    "message": "Huesca"
+	},
+	"prov_44": {
+	    "message": "Teruel"
+	},
+	"prov_50": {
+	    "message": "Zaragoza"
+	},
+	"ca_17": {
+	    "message": "Canarias"
+	},
+	"prov_35": {
+	    "message": "Las Palmas"
+	},
+	"prov_38": {
+	    "message": "Sta. Cruz de Tenerife"
+	},
+	"ca_3": {
+	    "message": "Cantabria"
+	},
+	"prov_39": {
+	    "message": "Cantabria"
+	},
+	"ca_11": {
+	    "message": "Castilla La Mancha"
+	},
+	"prov_2": {
+	    "message": "Albacete"
+	},
+	"prov_13": {
+	    "message": "Ciudad Real"
+	},
+	"prov_16": {
+	    "message": "Cuenca"
+	},
+	"prov_19": {
+	    "message": "Guadalajara"
+	},
+	"prov_45": {
+	    "message": "Toledo"
+	},
+	"ca_8": {
+	    "message": "Castilla y Le\u00f3n"
+	},
+	"prov_5": {
+	    "message": "\u00c1vila"
+	},
+	"prov_9": {
+	    "message": "Burgos"
+	},
+	"prov_24": {
+	    "message": "Le\u00f3n"
+	},
+	"prov_34": {
+	    "message": "Palencia"
+	},
+	"prov_37": {
+	    "message": "Salamanca"
+	},
+	"prov_40": {
+	    "message": "Segovia"
+	},
+	"prov_42": {
+	    "message": "Soria"
+	},
+	"prov_47": {
+	    "message": "Valladolid"
+	},
+	"prov_49": {
+	    "message": "Zamora"
+	},
+	"ca_7": {
+	    "message": "Catalu\u00f1a"
+	},
+	"prov_8": {
+	    "message": "Barcelona"
+	},
+	"prov_17": {
+	    "message": "Girona"
+	},
+	"prov_25": {
+	    "message": "Lleida"
+	},
+	"prov_43": {
+	    "message": "Tarragona"
+	},
+	"ca_18": {
+	    "message": "Ceuta"
+	},
+	"prov_51": {
+	    "message": "Ceuta"
+	},
+	"ca_10": {
+	    "message": "Comunidad de Madrid"
+	},
+	"prov_28": {
+	    "message": "Madrid"
+	},
+	"ca_5": {
+	    "message": "Comunidad Foral de Navarra"
+	},
+	"prov_31": {
+	    "message": "Navarra"
+	},
+	"ca_12": {
+	    "message": "Comunidad Valenciana"
+	},
+	"prov_3": {
+	    "message": "Alicante"
+	},
+	"prov_12": {
+	    "message": "Castell\u00f3n de la Plana"
+	},
+	"prov_46": {
+	    "message": "Valencia"
+	},
+	"ca_14": {
+	    "message": "Extremadura"
+	},
+	"prov_6": {
+	    "message": "Badajoz"
+	},
+	"prov_10": {
+	    "message": "C\u00e1ceres"
+	},
+	"ca_1": {
+	    "message": "Galicia"
+	},
+	"prov_15": {
+	    "message": "A Coru\u00f1a"
+	},
+	"prov_27": {
+	    "message": "Lugo"
+	},
+	"prov_32": {
+	    "message": "Orense"
+	},
+	"prov_36": {
+	    "message": "Pontevedra"
+	},
+	"ca_13": {
+	    "message": "Islas Baleares"
+	},
+	"prov_7": {
+	    "message": "Baleares"
+	},
+	"ca_9": {
+	    "message": "La Rioja"
+	},
+	"prov_26": {
+	    "message": "La Rioja"
+	},
+	"ca_19": {
+	    "message": "Melilla"
+	},
+	"prov_52": {
+	    "message": "Melilla"
+	},
+	"ca_4": {
+	    "message": "Pa\u00eds Vasco"
+	},
+	"prov_1": {
+	    "message": "\u00c1lava"
+	},
+	"prov_20": {
+	    "message": "Guip\u00fazcoa"
+	},
+	"prov_48": {
+	    "message": "Vizcaya"
+	},
+	"ca_2": {
+	    "message": "Principado de Asturias"
+	},
+	"prov_33": {
+	    "message": "Asturias"
+	},
+	"ca_16": {
+	    "message": "Regi\u00f3n de Murcia"
+	},
+	"prov_30": {
+	    "message": "Murcia"
+	},
+
+	"txt_oneAlert":{
+		"message" : "Hay una alerta nueva"
+	},
+
+	"txt_newAlerts_f":{
+		"message" : "Hay %s alertas nuevas"
+	},
+
+	"txt_totalAlerts_f":{
+		"message" : "%s en total"
+	},
+
+	"txt_speech_alerts_f":{
+		"message" : "Tiene alertas nuevas en %s"
+	},
+
+	"txt_speech_onealert_f":{
+		"message" : "Tiene una alerta nueva en %s"
+	},
+
+	"txt_one_km_f" : {
+		"message" : "Km. %s"
+	},
+
+	"txt_kms_f" : {
+		"message" : "Km. %s al %s"
+	},
+
+	"txt_sentido_f" : {
+		"message" : "Sentido: %s"
+	},
+	"txt_causa_f" : {
+		"message" : "Causa: %s"
+	},
+	"txt_coords_f" : {
+		"message" : "Lat: %s, Long: %s"
+	},
+	"txt_fcinicio_f" : {
+		"message" : "Inicio: %s"
+	},
+	"txt_hacia_f" : {
+		"message" : "hacia: %s"
+	},
+	"txt_hacia_f2" : {
+		"message" : "hacia %s"
+	},
+	"txt_and_step" : {
+		"message" : " y "
+	},
+
+	"on_news" : {
+		"message" : "Nuevas"
+	},
+	"on_olds" : {
+		"message" : "Antiguas"
+	},
+
+	"sor_news" : {
+		"message" : "Recientes"
+	},
+	"sor_old" : {
+		"message" : "Antiguas"
+	},
+	"sor_types" : {
+		"message" : "Por tipo"
+	},
+	"sor_levels" : {
+		"message" : "Por gravedad"
+	},
+	"sor_proximity" : {
+		"message" : "Por proximidad"
+	},
+
+	"pop_actual" : {
+		"message" : "Informaci\u00F3n actual"
+	},
+
+	"pop_actual_ex_f" : {
+		"message" : "%s (hora local)"
+	},
+
+	"pop_actual_new1" : {
+		"message" : "(una alerta nueva)"
+	},
+
+	"pop_actual_news_f" : {
+		"message" : "(%s nuevas)"
+	},
+
+	"pop_hco" : {
+		"message" : "Hist\u00F3rico de tus alertas"
+	},
+
+	"pop_totals_f" : {
+		"message" : "Total alertas: %s"
+	},
+
+	"pop_list_oldnews" : {
+		"message" : "Fecha"
+	},
+
+	"pop_list_levels" : {
+		"message" : "Gravedad"
+	},
+
+	"pop_list_types" : {
+		"message" : "Tipo"
+	},
+
+	"pop_sort" : {
+		"message" : "Orden"
+	},
+
+	"pop_filter" : {
+		"message" : "Filtros"
+	},
+
+	"pop_web_traffic" : {
+		"message" : "Ir a la web de la DGT"
+	},
+
+	"pop_icons_traffic" : {
+		"message" : "Colecci\u00F3n de iconos usados en mapa"
+	},
+
+	"pop_web_traffic_title" : {
+		"message" : "Ver alertas en la web de la DGT (Direcci\u00F3n General de Tr\u00e1fico)"
+	},
+
+	"pop_icons_traffic_title" : {
+		"message" : "Ir a la web de la colecci\u00F3n de iconos utilizada en el mapa"
+	},
+
+	"pop_config" : {
+		"message" : "Cambia la configuraci\u00F3n de tus alertas"
+	},
+
+	"op_tts_example" : {
+		"message" : "Ejemplo de s\u00edntesis de voz. Tiene alertas nuevas en Matabuena, Segovia"
+	},
+
+	"pop_refresh" : {
+		"message" : "Ver nuevas alertas!!"
+	},
+
+	"pop_hco_1" : {
+		"message" : "Ver hist\u00F3rico de tus alertas"
+	},
+
+	"pop_hco_0" : {
+		"message" : "Ver informaci\u00F3n actual"
+	},
+
+	"ico_new_1_f" : {
+		"message" : "Hay una alerta nueva en %s"
+	},
+
+	"ico_news_f" : {
+		"message" : "Hay %s alertas nuevas"
+	},
+
+	"ico_error" : {
+		"message" : "Se ha producido un error"
+	},
+
+	"pop_go_initial_view" : {
+		"message" : "Ir a vista inicial"
+	},
+
+	"error_get_url" : {
+		"message" : "Error al intentar obtener las incidencias"
+	},
+
+	"txt_coords_autoMode" : {
+		"message" : "(Coords. estimadas, no reales)"
+	},
+
+	"pop_letter_new" : {
+		"message" : "N"
+	},
+
+	"pop_title_new" : {
+		"message" : "Alerta nueva"
+	},
+
+	"pop_letter_save" : {
+		"message" : "H"
+	},
+
+	"pop_title_save" : {
+		"message" : "Guardar alerta en tu hist\u00F3rico"
+	},
+
+	"pop_letter_remove" : {
+		"message" : "B"
+	},
+
+	"pop_title_remove" : {
+		"message" : "Borrar alerta de tu hist\u00F3rico"
+	},
+
+	"op_title" : {
+		"message" : "Configuraci\u00F3n - Alertas de tr\u00E1fico"
+	},
+
+	"op_h1" : {
+		"message" : "Alertas de tr\u00E1fico/ Fitros y configuraci\u00F3n"
+	},
+
+	"op_save_change" : {
+		"message" : "Pulse el bot\u00F3n que aparece abajo para guardar sus nuevas preferencias"
+	},
+
+	"op_filters" : {
+		"message" : "Filtros"
+	},
+
+
+	"op_local" : {
+		"message" : "Localizaci\u00F3n"
+	},
+	"op_porprov" : {
+		"message" : "Por comunidad o provincia"
+	},
+	"op_expprov" : {
+		"message" : "Indique las comunidades o provincias de las alertas"
+	},
+
+	"op_porzoom" : {
+		"message" : "Por zona"
+	},
+
+	"op_expzoom" : {
+		"message" : "Establezca una zona de su inter\u00e9s en el mapa haciendo zoom +- o con la rueda del rat\u00F3n"
+	},
+
+	"op_porip" : {
+		"message" : "Cerca de tu ubicaci\u00F3n"
+	},
+
+	"op_expip" : {
+		"message" : "Indique el radio de kil\u00F3metros alrededor de tu ubicaci\u00F3n"
+	},
+
+	"op_distance" : {
+		"message" : "kil\u00F3metros alrededor"
+	},
+
+	"op_level" : {
+		"message" : "Gravedad/Nivel"
+	},	
+
+	"op_type" : {
+		"message" : "Tipo"
+	},
+
+	"op_discart" : {
+		"message" : "Descartar alertas con más de"
+	},
+
+	"op_days" : {
+		"message" : "d\u00edas de antiguedad"
+	},
+	"op_opc" : {
+		"message" : "Opciones"
+	},
+	"op_refresh" : {
+		"message" : "Refrescar alertas cada"
+	},	
+	"op_min" : {
+		"message" : "minutos"
+	},
+	"op_shownot" : {
+		"message" : "Mostrar ventanas de notificaci\u00F3n"
+	},
+	"op_notdisplay" : {
+		"message" : "Mantener la notificaci\u00F3n abierta durante"
+	},	
+	"op_ss" : {
+		"message" : "segundos"
+	},
+	"op_usesound" : {
+		"message" : "Usar sonido con la notificaci\u00F3n"
+	},
+	"op_volume" : {
+		"message" : "Volumen"
+	},
+	"op_save" : {
+		"message" : "Salvar cambios"
+	},
+	"op_save_title" : {
+		"message" : "Pulse para salvar los cambios"
+	},
+	"op_speechMore" : {
+		"message" : "Para sacar mayor partido a la s\u00edntesis de voz instale la extensi\u00F3n gratuita SpeakIt! desde el siguiente enlace y configure la voz en el idioma deseado."
+	},
+	"op_speechMore_a" : {
+		"message" : "Obtener gratis SpeakIt!"
+	},
+	"op_speech" : {
+		"message" : "Esta opci\u00F3n le permite escuchar un resumen de la localizaci\u00F3n de las nuevas alertas que se reciben."
+	},
+	"pop_go_full_view":{
+		"message" : "Todo el territorio"	
+	},
+	"pop_save_good":{
+		"message" : "Alerta guardada correctamente"	
+	},
+	"pop_remove_good":{
+		"message" : "Alerta eliminada correctamente"	
+	},
+	"pop_remove_bad":{
+		"message" : "Error al eliminar la alerta"	
+	},
+	"pop_save_bad":{
+		"message" : "Error al salvar la alerta"	
+	},
+	"pop_maptype_road":{
+		"message" : "Mapa"	
+	},
+	"pop_maptype_satellite":{
+		"message" : "Sat\u00e9lite"	
+	},
+	"pop_click_tolocal":{
+		"message" : "Pulse para localizar la alerta"
+	},
+	"pop_maptype_road_title":{
+		"message" : "Pulse para ver mapa"
+	},
+	"pop_maptype_satellite_title":{
+		"message" : "Pulse para ver imágen de Satélite"
+	},
+	"txt_coords_aproxMode":{
+		"message" : "Localización aproximada"
+	},
+	"op_load":{
+		"message" : "Cargando..."
+	}
+}

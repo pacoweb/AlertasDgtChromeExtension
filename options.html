@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+		<title data-msg-text="op_title">&nbsp;</title>
+		<link rel="stylesheet" href="styles/options.css" type="text/css" />
+		<link href="styles/skin/ui.dynatree.css" rel="stylesheet" type="text/css" id="skinSheet">
+		<link rel="stylesheet" href="styles/jquery.qtip.min.css" type="text/css" />
+	</head>
+	<body>
+		<div id="cntMain">
+
+			<h1 data-msg-text="op_h1"></h1>
+
+			<form>
+
+			<div class="btnSave">
+					<br />
+					<button id="btn-save-top" data-msg-text="op_save" data-msg-title="op_save_title" data-msg-title-op='{"position":{"at":"top center", "my":"bottom center"}}'></button>
+					<br />
+					<br />
+			</div>
+
+			<div id="cntFilters">
+
+				<fieldset>
+					<legend class="big" data-msg-text="op_filters">&nbsp;</legend>
+
+					<div id="cntLocal">
+						<fieldset>
+							<legend data-msg-text="op_local">&nbsp;</legend>
+
+							<div>
+
+								<div id="cntTree" class="cntControl">
+									
+									<div class="filterControl">
+										<label data-msg-text="op_porprov" for="opLocalProv">&nbsp;</label>
+										<input type="radio" id="opLocalProv" name="locationType" value="prov" data-bind-val="locationMode" data-show-hide-filter=""/>
+										<div class="explica" data-msg-text="op_expprov">&nbsp;</div>
+									</div>
+									<div>
+										<div id="tree">
+										</div>
+									</div>
+
+								</div>
+
+								<div id="cntZoom" class="cntControl">
+									
+									<div class="filterControl">
+										<label data-msg-text="op_porzoom" for="opLocalZoom">&nbsp;</label>
+										<input type="radio" id="opLocalZoom" name="locationType" value="zoom" data-bind-val="locationMode" data-show-hide-filter=""/>
+										<div class="explica" data-msg-text="op_expzoom">&nbsp;</div>
+									</div>
+
+									<div>
+										<div id="zoom">
+										</div>
+									</div>
+
+								</div>
+
+								<div id="cntGeo" class="cntControl">
+									
+									<div class="filterControl">
+										<label data-msg-text="op_porip" for="opLocalIp">&nbsp;</label>
+										<input type="radio" id="opLocalIp" name="locationType" value="ip" data-bind-val="locationMode" data-show-hide-filter=""/>
+										<div class="explica" data-msg-text="op_expip">&nbsp;</div>
+									</div>
+
+									<div>
+										<div id="geo">
+											<input type="number" id="numDistance" min="5" max="100" step="1" size="3" maxlength="3" required="" data-bind-val="locationIpDistance" data-bind-elm-prop="value">
+											<label data-msg-text="op_distance" for="numDistance">&nbsp;</label>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</fieldset>
+
+					</div>
+
+					<div>
+
+						<fieldset>
+							<legend data-msg-text="op_level">&nbsp;</legend>
+
+							<div id="levels" class="cntList">
+
+							</div>
+
+						</fieldset>
+
+						<fieldset>
+							<legend data-msg-text="op_type">&nbsp;</legend>
+
+							<div id="types" class="cntList">
+
+							</div>
+
+						</fieldset>
+
+
+						<label data-msg-text="op_discart" for="numDiscartDays">&nbsp;</label>
+						<input type="number" id="numDiscartDays" min="0" max="20" step="1" size="2" maxlength="2" required="" data-bind-val="discartDays" data-bind-elm-prop="value">
+						<label data-msg-text="op_days" for="numDiscartDays">&nbsp;</label>
+
+				</div>
+
+				</fieldset>
+			</div>
+
+			<div id="cntOptions">
+
+				<fieldset>
+					<legend class="big" data-msg-text="op_opc">&nbsp;</legend>
+					
+					<label data-msg-text="op_refresh" for="numMinutesRefresh">&nbsp;</label>
+					<input type="number" id="numMinutesRefresh" min="1" max="30" step="1" size="2" maxlength="2" required="" data-bind-val="minutesRefresh" data-bind-elm-prop="value">
+					<label data-msg-text="op_min" for="numMinutesRefresh">&nbsp;</label>
+
+					<br />
+
+					<input type="checkbox" id="chkUseNotifications" value="1" data-bind-val="useNotifications" data-disable-nested=""/>
+					<label data-msg-text="op_shownot" for="chkUseNotifications">&nbsp;</label>
+						
+
+					<div class="nested">
+
+						<label data-msg-text="op_notdisplay" for="numNotificationsSecondsDisplay">&nbsp;</label>
+						<input type="number" id="numNotificationsSecondsDisplay" min="5" max="200" step="5" value="10" size="2" maxlength="2" required="" data-bind-val="notificationsSecondsDisplay" data-bind-elm-prop="value"/>
+						<label data-msg-text="op_ss" for="numNotificationsSecondsDisplay">&nbsp;</label>
+
+						<div class="usesound">
+
+							<input type="checkbox" id="chkUseNotificationsWithSound" value="1" data-bind-val="useNotificationsWithSound" data-disable-nested=""/>
+							<label data-msg-text="op_usesound" for="chkUseNotificationsWithSound">&nbsp;</label>
+
+							<div class="nested">
+
+								<div id="sounds" class="cntList">
+
+								</div>
+
+								<div id="speech">
+									<span data-msg-text="op_speech"></span>
+								</div>
+
+								<div id="speechMore">
+									<span data-msg-text="op_speechMore"></span>
+									<a target="_blank" data-msg-text="op_speechMore_a" href="https://chrome.google.com/webstore/detail/speakit/pgeolalilifpodheeocdmbhehgnkkbak">SpeakIt!</a>
+								</div>
+
+							</div>
+							<div class="clear"></div>
+							<div class="nested volume">
+								<label data-msg-text="op_volume" for="rngNotificationsSoundVolume">&nbsp;</label>
+								<input type="range" id="rngNotificationsSoundVolume" min="0" max="1" value="0.5" step="0.1" data-bind-val="notificationsSoundVolume"  data-bind-elm-prop="value">
+								<input type="text" id="txtNotificationsSoundVolume" readonly value="0.5" maxlength="3" size="2" data-bind-val="notificationsSoundVolume" data-bind-elm-prop="value">
+						    </div>
+						</div>
+
+					</div>
+				</fieldset>
+
+			</div>
+
+			<div class="btnSave">
+				<button id="btn-save-bottom" data-msg-text="op_save" data-msg-title="op_save_title" data-msg-title-op='{"position":{"at":"top center", "my":"bottom center"}}'></button>
+			</div>
+
+			</form>
+
+			<div style="display:none;">
+				<audio id="audioNotifTest" src="audio/claxon.ogg" data-bind-val="notificationsSoundVolume" data-bind-elm-prop="volume"></audio>
+			</div>
+
+			<div id="load">
+				&nbsp;
+			</div>
+			
+			<div id="mask">
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.qtip.min.js" ></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js" ></script>
+		
+		<script type="text/javascript" src="js/jquery.dynatree.min.js" ></script>
+		
+		<script type="text/javascript" src="js/openlayers.js" ></script>
+
+		<script type="text/javascript" src="js/underscore-min.js" ></script>
+		<script type="text/javascript" src="js/underscore.string.min.js" ></script>
+		<script type="text/javascript" src="js/underscore-mixin.js" ></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/options-app.js" ></script>
+		<script type="text/javascript" src="js/init-options.js" ></script>
+
+	</body>
+
+
+
+</html>

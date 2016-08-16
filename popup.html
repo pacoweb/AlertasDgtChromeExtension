@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>&nbsp;</title>
+		<link rel="stylesheet" href="styles/popup.css" type="text/css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="header-first"  class="header-inside">
+				<h1 data-msg-static-text="extName">&nbsp;</h1>
+				<em data-msg-static-text="extVersion">&nbsp;</em>
+			</div>
+			<div id="header-second" class="header-inside">
+				<a href="#" id="open-config" data-msg-static-text="pop_config">&nbsp;</a>
+			</div>
+		</div>
+		<div id="summary">
+			<div id="summary-first" class="summary-inside">
+				<h2 id="summary-title">&nbsp;</h2>&nbsp;<span id="summary-title-ex"></span>
+				<div class="clear"></div>
+				<h3 id="summary-subtitle">&nbsp;</h3>&nbsp;<span id="summary-subtitle-ex"></span>
+			</div>
+			<div id="summary-second" class="summary-inside">
+				<a href="#" id="refresh" data-msg-static-text="pop_refresh"></a>
+				<br />
+				<a href="#" id="changeSource" data-msg-static-text="pop_hco_1"></a>
+			</div>
+		</div>
+		<div id="filters">
+				<div id="filters-first" class="filters-inside">
+					<fieldset>
+						<legend><span data-msg-static-text="pop_filter">&nbsp;</span></legend>
+						<div id="oldnews" class="cntList">
+						</div>
+						<div id="types" class="cntList">
+						</div>
+						<div id="levels" class="cntList">
+						</div>
+					</fieldset>
+				</div>
+				<div id="filters-second" class="filters-inside">
+					<fieldset>
+						<legend><span data-msg-static-text="pop_sort">&nbsp;</span></legend>
+						<div id="sorting" class="cntList">
+						</div>
+					</fieldset>
+				</div>
+		</div>
+		<div id="content">
+			<div id="content-first" class="content-inside">
+					<div id="content-first-summary">
+						&nbsp;<span id="histoResult"></span>
+					</div>
+					<div id="content-list">
+						<ul id="alertsList">
+						</ul>
+					</div>
+			</div>
+			<div id="content-second" class="content-inside">
+					<div id="content-second-summary">
+						<a id="goFullView" href="#" data-msg-static-text="pop_go_full_view"></a>
+						&nbsp;
+						<a id="goInitialView" href="#" data-msg-static-text="pop_go_initial_view"></a>
+					</div>
+					<div id="map">
+					</div>
+			</div>
+			<div id="content-third">
+				<div id="changeMapType" data-msg-static-text="pop_maptype_satellite" data-msg-static-title="pop_maptype_satellite_title"></div>
+			</div>
+		</div>
+		<div id="foot">
+			<div id="foot-first" class="foot-inside">
+				<a target="_blank" data-msg-static-title="pop_web_traffic_title" href="http://infocar.dgt.es/etraffic/Buscador?Camaras=true&SensoresMeteorologico=true&SensoresTrafico=true&Paneles=true&IncidenciasCONO=true&IncidenciasRETENCION=true&IncidenciasOBRAS=true&IncidenciasMETEOROLOGICA=true&IncidenciasPUERTOS=true&provincia=77&poblacion=&carretera=&PK=&version=mapa&pagina=null&accion_buscar=Buscar" data-msg-static-text="pop_web_traffic">&nbsp;</a>
+			</div>
+			<div id="foot-second" class="foot-inside">
+				<a target="_blank" data-msg-static-title="pop_icons_traffic_title" href="http://mapicons.nicolasmollet.com/" data-msg-static-text="pop_icons_traffic">&nbsp;</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js" ></script>
+
+		<script type="text/javascript" src="js/underscore-min.js" ></script>
+		<script type="text/javascript" src="js/underscore.string.min.js" ></script>
+		<script type="text/javascript" src="js/underscore-mixin.js" ></script>
+
+		<script type="text/javascript" src="js/openlayers.js" ></script>
+		<script type="text/javascript" src="js/moment.min.js" ></script>
+		<script type="text/javascript" src="js/moment-lang/es.js" ></script>
+
+		<script type="text/javascript" src="js/ixDbEz.js" ></script>
+
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/popup-app.js" ></script>
+		<script type="text/javascript" src="js/init-popup.js" ></script>
+	</body>
+</html>

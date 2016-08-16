@@ -1,0 +1,19 @@
+﻿{
+  "name": "__MSG_extName__",
+  "manifest_version": 2,
+  "default_locale":"es",
+  "description": "__MSG_extDescription__",
+  "background": {"page": "background.html"},
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "popup.html"
+  },
+  "version": "2.0.4",
+  "permissions": ["tts","geolocation",
+        "notifications","http://www.dgt.es/incidenciasXY.xml", "http://maps.googleapis.com/"]
+}
+
+
+
+  
