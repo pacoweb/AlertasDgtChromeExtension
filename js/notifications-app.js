@@ -38,7 +38,7 @@
 
         var prepareUniqueProvs = function()
         {
-            uniqProv = [];
+            uniqProvs = [];
 
             _.each(newAlerts, function(a){
 
