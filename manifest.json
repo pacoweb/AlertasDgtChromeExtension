@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "__MSG_extName__",
   "manifest_version": 2,
   "default_locale":"es",
@@ -9,11 +9,7 @@
     "default_icon": "icons/icon16.png",
     "default_popup": "popup.html"
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "permissions": ["tts","geolocation",
-        "notifications","http://www.dgt.es/incidenciasXY.xml", "http://maps.googleapis.com/"]
-}
-
-
-
-  
+        "notifications","https://www.dgt.es/incidenciasXY.xml", "https://maps.googleapis.com/"]
+} 
