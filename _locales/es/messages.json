@@ -6,10 +6,10 @@
 		"message" : "Recibe alertas georeferenciadas de tr\u00e1fico procedentes de la informaci\u00F3n DGT"
 	},
 	"extJustVersion" : {
-		"message" : "2.0.4"
+		"message" : "2.0.6"
 	},
 	"extVersion" : {
-		"message" : "Versi\u00F3n 2.0.4"
+		"message" : "Versi\u00F3n 2.0.6"
 	},
 	"so_claxon" : {
 		"message" : "Claxon"
