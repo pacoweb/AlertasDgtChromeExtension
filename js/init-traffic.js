@@ -4,7 +4,7 @@
     var root = this;
     var $container = $(window.document);
 
-    var initOptions = {urlService:"http://www.dgt.es/incidenciasXY.xml", mode: 0, 
+    var initOptions = {urlService:"https://www.dgt.es/incidenciasXY.xml", mode: 0, 
             browserManager: 
             {
                 chrome: chrome,
