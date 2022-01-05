@@ -4,7 +4,7 @@
     var root = this;
     var $container = $(window.document);
 
-    var initOptions = {urlService:"https://www.dgt.es/incidenciasXY.xml", mode: 0, 
+    var initOptions = {urlService:"https://www-pro.dgt.es/estaticos/movilidad/incidenciasXY.xml", mode: 0, 
             browserManager: 
             {
                 chrome: chrome,
