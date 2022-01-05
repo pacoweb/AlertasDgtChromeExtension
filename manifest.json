@@ -9,7 +9,7 @@
     "default_icon": "icons/icon16.png",
     "default_popup": "popup.html"
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "permissions": ["tts","geolocation",
-        "notifications","https://www.dgt.es/incidenciasXY.xml", "https://maps.googleapis.com/"]
+        "notifications","https://www-pro.dgt.es/estaticos/movilidad/incidenciasXY.xml", "https://maps.googleapis.com/"]
 } 
